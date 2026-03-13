@@ -20,19 +20,19 @@ export default function Home() {
   {/* Left Column */}
   <div className="w-full md:w-1/2">
     <img
-      src="/public/images/p1.png"
+      src="/images/p1.png"
       className="w-full h-auto object-cover rounded-lg"
       alt=""
     />
 
     <div className="flex flex-col sm:flex-row gap-8 mt-8">
       <img
-        src="/public/images/p2.png"
+        src="/images/p2.png"
         className="w-full sm:w-1/2 h-auto object-cover rounded-lg"
         alt=""
       />
       <img
-        src="/public/images/p3.png"
+        src="/images/p3.png"
         className="w-full sm:w-1/2 h-auto object-cover rounded-lg"
         alt=""
       />
@@ -55,7 +55,7 @@ export default function Home() {
     <div className="flex flex-col sm:flex-row gap-8 mt-8">
       <div className="w-full sm:w-1/2">
         <img
-          src="/public/images/p4.png"
+          src="/images/p4.png"
           className="w-full h-auto object-cover rounded-lg"
           alt=""
         />
@@ -63,12 +63,12 @@ export default function Home() {
 
       <div className="w-full sm:w-1/2 flex flex-col gap-8">
         <img
-          src="/public/images/p5.png"
+          src="/images/p5.png"
           className="w-full h-auto object-cover rounded-lg"
           alt=""
         />
         <img
-          src="/public/images/p6.png"
+          src="/images/p6.png"
           className="w-full h-auto object-cover rounded-lg"
           alt=""
         />
@@ -129,7 +129,7 @@ export default function Home() {
 <div className="stat w-[90%] m-auto md:py-10">
 
   <div className="st">
-    <img src="/public/images/icon-earth.png" alt="service" />
+    <img src="/images/icon-earth.png" alt="service" />
     <div className="text">
       <h3>700 Destinations</h3>
       <p>Our expert team handpicked all destinations in this site</p>
@@ -137,7 +137,7 @@ export default function Home() {
   </div>
 
   <div className="st">
-    <img src="/public/images/logo-02.png" alt="service" />
+    <img src="/images/logo-02.png" alt="service" />
     <div className="text">
       <h3>Best Price Gurantee</h3>
       <p>Price match within 48 hours of order confirmation</p>
@@ -145,7 +145,7 @@ export default function Home() {
   </div>
 
   <div className="st">
-    <img src="/public/images/logo-03.png" alt="service" />
+    <img src="/images/logo-03.png" alt="service" />
     <div className="text">
       <h3>Top Notch Support</h3>
       <p>We are here to help, before, during, and even after your trip.</p>
