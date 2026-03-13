@@ -20,19 +20,19 @@ export default function Home() {
   {/* Left Column */}
   <div className="w-full md:w-1/2">
     <img
-      src="/images/p1.png"
+      src="/images/p1.PNG"
       className="w-full h-auto object-cover rounded-lg"
       alt=""
     />
 
     <div className="flex flex-col sm:flex-row gap-8 mt-8">
       <img
-        src="/images/p2.png"
+        src="/images/p2.PNG"
         className="w-full sm:w-1/2 h-auto object-cover rounded-lg"
         alt=""
       />
       <img
-        src="/images/p3.png"
+        src="/images/p3.PNG"
         className="w-full sm:w-1/2 h-auto object-cover rounded-lg"
         alt=""
       />
@@ -55,7 +55,7 @@ export default function Home() {
     <div className="flex flex-col sm:flex-row gap-8 mt-8">
       <div className="w-full sm:w-1/2">
         <img
-          src="/images/p4.png"
+          src="/images/p4.PNG"
           className="w-full h-auto object-cover rounded-lg"
           alt=""
         />
@@ -63,12 +63,12 @@ export default function Home() {
 
       <div className="w-full sm:w-1/2 flex flex-col gap-8">
         <img
-          src="/images/p5.png"
+          src="/images/p5.PNG"
           className="w-full h-auto object-cover rounded-lg"
           alt=""
         />
         <img
-          src="/images/p6.png"
+          src="/images/p6.PNG"
           className="w-full h-auto object-cover rounded-lg"
           alt=""
         />
