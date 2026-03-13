@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cta{
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+.cta:hover{
+    background: green;
+    color: #fff;
+}
+
+.hero .swiper-button-prev,
+.hero .swiper-button-next{
+    color: #fff !important;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.9s ease-in-out forwards;
+}
+
+p{
+  font-size: 16px !important;
+}
+
+.bg1{
+  background-image: url('/public/images/home-image.jpg');
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.text-1{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.tour .swiper-button-next,
+.tour .swiper-button-prev {
+  width: 35px;
+  height: 35px;
+  background: #000;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.tour .swiper-button-next:after,
+.tour .swiper-button-prev:after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.plan .swiper-button-prev,
+.plan .swiper-button-next{
+  background: rgb(0 189 187);
+  color: #fff;
+  padding: 10px;
+}
+
+.plan .swiper-button-next:after,
+.plan .swiper-button-prev:after{
+  font-size: 20px;
+  color: #fff;
+  width: 10px;
+}
+
+.of-1 button{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 13px 33px 13px 33px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background: rgb(0 189 187);
+}
+
+
+/*stat*/
+.stat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.st {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+
+.st img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.st h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: none;
+    padding-bottom: 15px;
+}
+
+.st p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: gray;
+}
+
+/*Testimonial*/
+
+.testi{
+  background-image: url('/images/testimonial-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 90px 0px 60px 0px;
+}
+.testi h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: none;
+    line-height: 1.2;
+    color: #12022f;
+}
+
+.testi .swiper-slide {
+  transition: 0.4s ease;
+  opacity: 0.4;
+}
+
+.testi .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.testimonial-card {
+  backdrop-filter: blur(10px);
+}
+
+.testi .swiper-button-prev,
+.testi .swiper-button-next{
+  background: rgb(0, 0, 0);
+  color: #fff;
+  padding: 10px;
+}
+
+.testi .swiper-button-next:after,
+.testi .swiper-button-prev:after{
+  font-size: 20px;
+  color: #fff;
+  width: 10px;
+}
+
+.roadmap div:hover {
+  transform: translateX(8px);
+  transition: 0.3s;
+}
