@@ -20,13 +20,13 @@ export default function AdminDashboard() {
   }, []);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/travel")
+    fetch("https://travida-backend.onrender.com/api/travel")
       .then(res => res.json())
       .then(setData);
   }, []);
 
   const deleteData = async (id) => {
-    await fetch(`http://localhost:5000/api/travel/${id}`, {
+    await fetch(`https://travida-backend.onrender.com/api/travel/${id}`, {
       method: "DELETE",
     });
     setData(data.filter(item => item._id !== id));
