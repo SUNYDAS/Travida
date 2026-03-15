@@ -184,7 +184,7 @@ export default function About() {
   <div className="stat w-[90%] m-auto md:py-10">
 
   <div className="st">
-    <img src="/public/images/icon-earth.png" alt="service" />
+    <img src="/images/icon-earth.png" alt="service" />
     <div className="text">
       <h3>700 Destinations</h3>
       <p>Our expert team handpicked all destinations in this site</p>
@@ -192,7 +192,7 @@ export default function About() {
   </div>
 
   <div className="st">
-    <img src="/public/images/logo-02.png" alt="service" />
+    <img src="/images/logo-02.png" alt="service" />
     <div className="text">
       <h3>Best Price Gurantee</h3>
       <p>Price match within 48 hours of order confirmation</p>
@@ -200,7 +200,7 @@ export default function About() {
   </div>
 
   <div className="st">
-    <img src="/public/images/logo-03.png" alt="service" />
+    <img src="/images/logo-03.png" alt="service" />
     <div className="text">
       <h3>Top Notch Support</h3>
       <p>We are here to help, before, during, and even after your trip.</p>
