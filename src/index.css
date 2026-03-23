@@ -107,6 +107,12 @@ p{
   gap: 20px;
 }
 
+@media (max-width: 768px) {
+  .stat {
+    grid-template-columns: 1fr;
+  }
+}
+
 .st {
   display: flex;
   gap: 20px;
