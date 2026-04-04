@@ -11,23 +11,23 @@ export default function TourImage() {
   const tours = [
     {
     country: "India",
-    img: "/images/slider1.webp",
+    img: "/images/slider-1.webp",
   },
   {
     country: "Germany",
-    img: "/images/slider2.webp",
+    img: "/images/slider-2.webp",
   },
   {
     country: "Italy",
-    img: "/images/slider3.webp",
+    img: "/images/slider-3.webp",
   },
   {
     country: "Spain",
-    img: "/images/slider4.webp",
+    img: "/images/slider-4.webp",
   },
   {
     country: "Dubai",
-    img: "/images/slider5.webp",
+    img: "/images/slider-5.webp",
   },
   ];
 
