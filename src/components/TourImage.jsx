@@ -11,23 +11,23 @@ export default function TourImage() {
   const tours = [
     {
     country: "India",
-    img: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1600&q=80",
+    img: "/images/slider1.webp",
   },
   {
     country: "Germany",
-    img: "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&w=1600&q=80",
+    img: "/images/slider2.webp",
   },
   {
     country: "Italy",
-    img: "https://images.unsplash.com/photo-1529260830199-42c24126f198?auto=format&fit=crop&w=1600&q=80",
+    img: "/images/slider3.webp",
   },
   {
     country: "Spain",
-    img: "https://images.unsplash.com/photo-1509840841025-9088ba78a826?auto=format&fit=crop&w=1600&q=80",
+    img: "/images/slider4.webp",
   },
   {
     country: "Dubai",
-    img: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1600&q=80",
+    img: "/images/slider5.webp",
   },
   ];
 
